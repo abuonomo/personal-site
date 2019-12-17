@@ -109,8 +109,10 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
-  color: darkgrey;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: 34px;
+  color: dimgrey;
 }
 
 a {
@@ -128,11 +130,19 @@ a {
   text-align:center;
 }
 
+img {
+  width: 100%;
+}
+
 .heading-links {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1em;
+  margin-right: 1em;
   display:inline-block;
   width: 15%;
+}
+
+.heading-links:hover {
+  opacity: 0.5;
 }
 
 .centered {
