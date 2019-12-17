@@ -99,6 +99,7 @@ textarea {
    ========================================================================== */
 body {
   background-image: url('../img/payson-wick-B8VbQj7Y9WI-unsplash.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
