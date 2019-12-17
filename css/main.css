@@ -112,10 +112,26 @@ h2 {
   color: darkgrey;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-heading {
+  margin-bottom: 0.2em;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+.profile-links {
+  text-align:center;
+}
+
+.heading-links {
+  margin-left: auto;
+  margin-right: auto;
+  display:inline-block;
+  width: 15%;
 }
 
 .centered {
