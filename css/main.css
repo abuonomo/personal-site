@@ -97,12 +97,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  background-image: url('../img/payson-wick-B8VbQj7Y9WI-unsplash.jpg');
+  background-size: cover;
+}
 
 h1 {
-  margin: 4em;
+  font-size: 64px;
+  color: darkslategrey;
+}
+
+h2 {
+  font-size: 32px;
+  color: darkgrey;
+}
+
+.main-heading {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 56px;
+  font-weight: bold;
+}
+
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 
