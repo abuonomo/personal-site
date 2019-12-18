@@ -166,6 +166,16 @@ img {
   width: 4%;
 }
 
+.photocreds{
+  color: dimgrey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.photocreds:hover{
+  opacity: 0.5;
+}
+
 
 /* ==========================================================================
    Helper classes
